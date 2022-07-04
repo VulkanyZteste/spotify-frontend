@@ -73,7 +73,8 @@ function signUp() {
         .then(response => {
             // console.log(response.status);
             if (response.status === 201) {
-                window.location.href = "../logged/logged.html";
+                alert('Succesfully registered');
+                window.location.href = "https://website-spotify.herokuapp.com/logged";
             } else {
                 // console.log('response.status is not 201');
             }
