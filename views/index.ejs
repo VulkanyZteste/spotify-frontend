@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escutar muda tudo - Spotify</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/img/spotify-favicon.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+</head>
+
+<body>
+    <header>
+        <navbar id="navbar">
+            <div class="navbar-container">
+                <a href="/"><img src="./assets/img/spotify-logo.png" alt="spotify-logo" id="spotify-logo"></a>
+
+                <ul class="navbar-items">
+                    <a href="./premium">
+                        <li class="li-navbar">Premium</li>
+                    </a>
+                    <a href="./support">
+                        <li class="li-navbar">Suporte</li>
+                    </a>
+
+                    <a href="./download">
+                        <li class="li-navbar" id="download">Baixar</li>
+                    </a>
+
+                    <a href="/signup">
+                        <li class="li-navbar">Inscrever-se</li>
+                    </a>
+
+                    <a href="/login" onclick="login()">
+                        <li class="li-navbar">Entrar</li>
+                    </a>
+                </ul>
+            </div>
+        </navbar>
+    </header>
+
+    <div id="showcase">
+        <div class="showcase-container">
+            <h1 id="title">Escutar muda tudo</h1>
+            <p>Milhões de músicas e podcasts para explorar. E nem precisa de cartão de crédito.</p>
+
+            <a href="./signup/signup.html">
+                <button id="btn-baixe">BAIXE O SPOTIFY FREE</button>
+            </a>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer">
+
+            <div class="footer-container">
+                <div class="main-footer-content">
+
+
+
+                    <div class="grid-links">
+
+                        <div class="grid1">
+                            <div class="img">
+                                <img src="./assets/img/spotify-logo.png" alt="spotify-logo" id="spotify-logo-footer">
+                            </div>
+                        </div>
+
+
+                        <div class="grid2">
+                            <p>EMPRESA</p>
+                            <a href="/sobre" id="sobre">Sobre</a>
+                            <a href="/empregos" id="empregos">Empregos</a>
+                            <a href="/record" id="for-record">For the Record</a>
+                        </div>
+
+                        <div class="grid3">
+                            <p>COMUNIDADES</p>
+                            <a href="/artistas" id="artistas">Para Artistas</a>
+                            <a href="/desenvolvedores" id="dev">Desenvolvedores</a>
+                            <a href="/publicidade" id="publicidade">Publicidade</a>
+                            <a href="/investidores" id="investidores">Investidores</a>
+                            <a href="/fornecedores" id="fornecedores">Fornecedores</a>
+                        </div>
+
+                        <div class="grid4">
+                            <p>LINKS ÚTEIS</p>
+                            <a href="/suporte" id="suporte">Suporte</a>
+                            <a href="/playerweb" id="player-web">Player da Web</a>
+                            <a href="/aplicativomovel" id="aplicativo-movel">Aplicativo móvel grátis</a>
+                        </div>
+
+
+
+                        <div class="grid5">
+                            <!-- <h2>aa</h2>
+                            <h2>aa</h2>
+                            <h2>aa</h2> -->
+                            <img src="./assets/img/instagram-icon.svg" alt="instagram-icon" id="instagram-icon">
+                            <img src="./assets/img/twitter-icon.svg" alt="twitter-icon" id="twitter-icon">
+                            <img src="./assets/img/facebook-icon.svg" alt="facebook-icon" id="facebook-icon">
+                        </div>
+                    </div>
+
+
+                </div>
+
+            <nav class="links">
+                <div class="links-container">
+                    <div class="list-link">
+                        <a href="/legal"><p>Legal</p></a>
+                        <a href="/privacy"><p>Centro de Privacidade</p></a>
+                        <a href="/privacy-police"><p>Política de privacidade</p></a>
+                        <a href="/cookies-policy"><p>Cookies</p></a>
+                        <a href="/legal/privacy-police"><p>Sobre anúncios</p></a>
+                    </div>
+
+                    <div class="nav-links-right-side">
+                        <p>2022 Spotify AB</p>
+                    </div>
+                </div>
+            </nav>
+
+
+
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

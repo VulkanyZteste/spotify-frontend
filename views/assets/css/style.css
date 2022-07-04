@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#navbar {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    /* color: rgb(252, 252, 252); */
+    width: 100%;
+}
+
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 63%;
+    padding: 20px 0;
+}
+
+
+#spotify-logo {
+    height: 40px;
+    width: auto;
+}
+
+
+.navbar-items {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+
+.li-navbar {
+    padding: 0 20px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+
+#download {
+    border-right: 1px solid rgb(145, 145, 145);
+}
+
+
+.li-navbar:hover {
+    color: rgba(0, 214, 96, 0.993);
+}
+
+
+#showcase {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 214, 96, 0.993);
+    background-color: rgb(65, 42, 194);
+    background-image: url(../img/wallpaper-spotify.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+}
+
+.showcase-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+#title {
+    font-size: 145px;
+    font-weight: bolder
+}
+
+
+.showcase-container p {
+    margin-top: 30px;
+}
+
+
+#btn-baixe {
+    background-color: rgba(0, 214, 96, 0.993);
+    color: rgb(65, 42, 194);
+    margin-top: 35px;
+    height: 50px;
+    width: 220px;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    border-radius: 27px;
+    cursor: pointer;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.footer {
+    display: flex;
+    color: white;
+    width: 100%;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 86%;
+    margin: auto;
+    /* padding: 90px 180px; */
+    padding-top: 90px;
+    padding-bottom: 60px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+
+.main-footer-content {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.grid-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+}
+
+
+.grid1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+}
+
+
+.img {
+    width: 133px;
+    height: 40px;
+    margin-top: -22px;
+}
+
+
+#spotify-logo-footer {
+    height: 40px;
+}
+
+
+.grid2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.grid3 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.grid4 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.grid5 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 125px;
+}
+
+
+h2 {
+    margin-right: 10px;
+}
+
+
+#instagram-icon {
+    height: 50px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+
+#twitter-icon {
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+
+#facebook-icon {
+    height: 40px;
+    margin-right: 25px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+
+.grid-links p {
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(129, 129, 129);
+    margin-bottom: 25px;
+}
+
+
+.grid-links a {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.grid-links a:hover {
+    color: rgba(0, 214, 96, 0.993);
+}
+
+
+.links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+    padding: 0 25px;
+}
+
+
+.links-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.list-link {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(129, 129, 129);
+}
+
+
+.list-link p {
+    margin-right: 30px;
+}
+
+
+.list-link a {
+    color: rgb(129, 129, 129);
+}
+
+
+.list-link a:hover {
+    color: rgba(0, 214, 96, 0.993);
+}
+
+
+.nav-links-right-side {
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(129, 129, 129);
+}
+
+
+
+
+
+
+
+
+
+
+

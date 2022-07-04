@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up - Spotify</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="../assets/img/spotify-favicon.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <navbar id="navbar">
+        <div class="navbar-container">
+            <img src="./assets/img/spotify-logo-black.png" alt="spotify-logo-black" id="spotify-logo">
+        </div>
+    </navbar>
+
+    <div id="signup">
+        <div class="signup-container">
+            <div class="title">
+                <h1 id="title">Sign up for free to start listening.</h1>
+                <div class="buttons-flex">
+                    <img src="./assets/img/facebook-icon.png" alt="facebook-icon" id="facebook-icon">
+                    <button class="btn btn-facebook">Sign up with Facebook</button>
+
+                    <img src="./assets/img/icons8-google-logo-240.png" alt="google-icon" id="google-icon">
+                    <button class="btn btn-google">Sign up with Google</button>
+
+                    <div class="left-right-side">
+                        <div id="left-side">
+
+                        </div>
+
+                        <div id="right-side">
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="form">
+                <form action="" method="post" id="form">
+                    <label for="email">What's your email?</label>
+                    <input type="email" id="input-email" name="email" placeholder="Enter your email." onkeyup="errorEmail()">
+
+                    <div class="error-email">
+                        <span id="error-email">You need to enter your email.</span>
+                    </div>
+
+                    <a href="#" id="phone-number-link">Use phone number instead</a>
+
+                    <label for="confirm-email">Confirm your email</label>
+                    <input type="email" id="input-confirm-email" placeholder="Enter your email again." onkeyup="errorEmailConfirm()">
+
+                    <div class="error-confirm-email">
+                        <span id="error-confirm-email">You need to confirm your email.</span>
+                    </div>
+
+                    <label for="password" id="label-password">Create a password</label>
+                    <input type="password" id="input-password" name="password" placeholder="Create a password." onkeyup="errorPassword()">
+
+                    <div class="error-password">
+                        <span id="error-password">You need to enter a password.</span>
+                    </div>
+
+                    <label for="profile-name" id="label-profile-name">What should we call you?</label>
+                    <input type="text" id="input-profile-name" name="profileName" placeholder="Enter a profile name." onkeyup="errorProfile()">
+                    <p id="profile-name">This appears on your profile.</p>
+
+                    <label for="date-bith">What's your date of birth?</label>
+                    <div class="day-month-year">
+                        <div class="day">
+                            <p class="p-day-month-year">Day</p>
+                            <input type="number" id="day" name="dayBirth" placeholder="DD">
+                        </div>
+
+                        <div class="month">
+                            <p class="p-day-month-year">Month</p>
+                            <input type="number" id="month" name="monthBirth" placeholder="Month">
+                        </div>
+
+                        <div class="year">
+                            <p class="p-day-month-year">Year</p>
+                            <input type="number" id="year" name="yearBirth" placeholder="YYYY">
+                        </div>
+                    </div>
+
+                    <label for="gender">What's your gender?</label>
+                    <div class="inputs-radio">
+                        <input type="radio" name="gender" id="gender-male" value="male" class="input-radio">
+                        <label for="gender-male" class="label-inputs-radio" id="label-gender-male">Male</label>
+
+                        <input type="radio" name="gender" id="gender-female" value="female" class="input-radio">
+                        <label for="gender-female" class="label-inputs-radio" id="label-gender-female">Female</label>
+
+                        <input type="radio" name="gender" id="gender-non-binary" value="non-binary" class="input-radio">
+                        <label for="gender-non-binary" class="label-inputs-radio"
+                            id="label-gender-non-binary">Non-binary</label>
+                    </div>
+
+
+                    <div class="agree-terms">
+                        <input type="checkbox" name="terms" id="terms" onclick="validateTerms()">
+                        <p id="terms-conditions">I agree to the <a href="###">Spotify Terms and Conditions of Use</a>.
+                        </p>
+
+                    </div>
+
+                    <div class="error-terms">
+                        <span id="error-terms">Please accept the terms and conditions to continue.</span>
+                    </div>
+
+                    <div class="info-container">
+
+                        <p id="info">To learn more about how Spotify collects, uses, shares and protects your personal
+                            data, please see <a href="######" id="privacy-policy">Spotify's Privacy Policy</a>.</p>
+                    </div>
+
+
+                    <div class="button-signup">
+
+                        <button class="btn btn-signup" type="submit" onclick="signUp()" id="sign-up">Sign up</button>
+                    </div>
+
+                    <p id="have-account">Have an account? <a href="/login">Log in</a>.</p>
+
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

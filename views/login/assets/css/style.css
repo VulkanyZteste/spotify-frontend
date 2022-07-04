@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    /* color: rgb(252, 252, 252); */
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+    margin-bottom: 40px;
+}
+
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 63%;
+    padding: 25px 0;
+}
+
+
+#spotify-logo {
+    height: 55px;
+    width: auto;
+}
+
+
+#signup {
+    margin-top: 10px;
+    display: flex;
+}
+
+
+.signup-container {
+    margin: 0 auto;
+    width: 450px;
+    padding-bottom: 150px;
+}
+
+
+.title {
+    text-align: center;
+}
+
+
+#title {
+    font-size: 13px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+
+.error {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: none;
+    align-items: center;
+    background-color: red;
+    height: 43px;
+}
+
+
+#exclamation {
+    padding-left: 15px;
+    height: 21px;
+    width: auto;
+}
+
+
+#error {
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+
+.buttons-flex {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 30px; */
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#facebook-icon {
+    position:absolute;
+    top: 12px;
+    left: 71px;
+    height: 20px;
+    width: auto;
+}
+
+
+#apple-icon {
+    position:absolute;
+    top: 66px;
+    left: 89px;
+    height: 22px;
+    width: auto;
+}
+
+
+#google-icon {
+    position:absolute;
+    top: 124px;
+    left: 83px;
+    height: 22px;
+    width: auto;
+}
+
+
+.btn {
+    height: 46px;
+    border: none;
+    border-radius: 28px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100%;
+    letter-spacing: 3px;
+}
+
+
+.btn:hover{
+    border-color: black;
+}
+
+
+.btn-facebook {
+    margin-bottom: 10px;
+    color: white;
+    background-color: rgb(73, 88, 175);
+}
+
+
+.btn-apple {
+    margin-bottom: 10px;
+    color: white;
+    background-color: rgb(17, 17, 17);
+    border: 2px solid rgb(58, 58, 58);
+}
+
+
+.btn-google {
+    margin-bottom: 10px;
+    color: rgb(73, 73, 73);
+    background-color: white;
+    border: 2px solid rgba(58, 58, 58, 0.205);
+}
+
+
+.form {
+    margin-top: 50px;
+}
+
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+label {
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+
+#input-email {
+    margin-bottom: 15px;
+}
+
+
+#input-password {
+    margin-bottom: 20px;
+}
+
+
+input {
+    height: 50px;
+    margin-bottom: 30px;
+    text-indent: 14px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    border-radius: 3px;
+}
+
+
+input::placeholder {
+    font-size: 14px;
+}
+
+
+
+
+
+.forgot-password {
+    display: flex;
+    position: relative;
+    padding-bottom: 80px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.253);;
+}
+
+
+#check-forgot {
+    position: absolute;
+    top: 17px;
+    width: 17px;
+}
+
+
+#forgot-password {
+    color: black;
+    text-decoration: none;
+}
+
+
+#forgot-password:hover {
+    text-decoration: underline;
+}
+
+
+#remember-me {
+    position: absolute;
+    top: 36px;
+    left: 30px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+a {
+    color: rgba(19, 104, 57, 0.993);
+}
+
+
+.button-signup {
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn-signup {
+    /* margin-top: 15px; */
+    /* margin-bottom: 27px; */
+    position: absolute;
+    top: 30px;
+    left: 332px;
+    background-color: rgba(17, 223, 110, 0.993);
+    width: 26%;
+    height: 45px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+#have-account {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
