@@ -38,7 +38,7 @@ function btnLogin() {
             if (response.data === 'succesfully logged') {
                 console.log('logado');
                 console.log(response.data);
-                window.location.href = "../logged/logged.html";
+                window.location.href = "https://vulkanyz-spotify.herokuapp.com/logged";
             };
         })
         .catch(error => {
